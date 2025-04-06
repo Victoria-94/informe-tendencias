@@ -1,0 +1,110 @@
+    1  version
+    2  pwd
+    3  echo "hola clase"
+    4  whoami
+    5  mkdir proyecto_comandos
+    6  cd proyecto_comandos
+    7  mkdir documentos
+    8  mkdir imagenes 
+    9  mkdir scripts
+   10  cd documentos
+   11  touch notas.txt
+   12  cd notas
+   13  nano notas.txt
+   14  ls
+   15  mv notas.txt ./scripts
+   16  ls
+   17  cat
+   18  mv notas.txt backup_notas.txt
+   19  ls
+   20  cd scripts
+   21  ls 
+   22  cd proyecto_comandos
+   23  cd
+   24  cd-
+   25  cd - 
+   26  cd
+   27  cd proyecto_comandos
+   28  ls
+   29  cd scripts
+   30  cd
+   31  cd proyecto_comandos
+   32  ls
+   33  cd documentos
+   34  ls
+   35  rm -r./documentos
+   36  ls
+   37  pwd
+   38  rm scripts
+   39  ls
+   40  echo notas.txt
+   41  ls
+   42  touch notas.txt
+   43  ls
+   44  nano notas.txt 
+   45  echo notas.txt
+   46  mv notas.txt scripts/backup_notas.txt
+   47  ls
+   48  cd
+   49  cd proyecto_comandos
+   50  ls
+   51  cd documentos
+   52  ls
+   53  cd
+   54  ls
+   55  cd proyecto_comandos/
+   56  ls
+   57  cd scripts/
+   58  pwd
+   59  cd ..
+   60  cd documentos/
+   61  ls
+   62  mv notas.txt /c/Users/Susana Quinde/proyecto_comandos/scripts/backup_notas.txt
+   63  mv notas.txt "/c/Users/Susana Quinde/proyecto_comandos/scripts/backup_notas.txt"
+   64  cd ..
+   65  ls
+   66  cd scripts/
+   67  ls
+   68  mv backup_notas.txt  "/c/Users/Susana Quinde/proyecto_comandos/imagenes/backup_notas.txt"
+   69  cd..
+   70  cd ..
+   71  ls
+   72  cd imagenes/
+   73  ls
+   74  cd ..
+   75  cd documentos/
+   76  nano resumen.txt
+   77  ls
+   78  nano resumen.txt
+   79  nano resumen.txt
+   80  ls
+   81  cd ..
+   82  cd imagenes/
+   83  ls
+   84  cat backup_notas.txt [200~ "/c/Users/Susana Quinde/proyecto_comandos/imagenes/backup_notas.txt"~
+   85  cat backup_notas.txt  "/c/Users/Susana Quinde/proyecto_comandos/documentos/resumen.txt"
+   86  cd ..
+   87  nano "/c/Users/Susana Quinde/proyecto_comandos/documentos/resumen.txt"
+   88  cat backup_notas.txt > "/c/Users/Susana Quinde/proyecto_comandos/documentos/resumen.txt"
+   89  ls
+   90  cd documentos/
+   91  cat backup_notas.txt > "/c/Users/Susana Quinde/proyecto_comandos/documentos/resumen.txt"
+   92  ls
+   93  cd ..
+   94  cd imagenes/
+   95  cat backup_notas.txt > "/c/Users/Susana Quinde/proyecto_comandos/documentos/resumen.txt"
+   96  cd ..
+   97  nano  "/c/Users/Susana Quinde/proyecto_comandos/documentos/resumen.txt"
+   98  nano  "/c/Users/Susana Quinde/proyecto_comandos/documentos/resumen.txt"
+   99  cd imagenes/
+  100  ls
+  101  rm backup_notas.txt 
+  102  ls
+  103  cd
+  104  cd proyecto_comandos
+  105  ls
+  106  rm imagenes
+  107  rm imagenes/
+  108  rmdir imagenes
+  109  ls
+  110  history | tee tarea-s1-Victoria-Quinde.txt
