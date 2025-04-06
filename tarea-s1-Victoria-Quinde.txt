@@ -11,7 +11,7 @@
    11  touch notas.txt
    12  cd notas
    13  nano notas.txt
-   14  ls
+ñ   14  ls
    15  mv notas.txt ./scripts
    16  ls
    17  cat
